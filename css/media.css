@@ -1,0 +1,26 @@
+/*параметры который будут принимать блоки при ширине меньше 1240px*/
+@media screen and (max-device-width: 1240px){
+	.volvo{width: 800px; height: 450px;}
+	.grou{width: 900px;}
+	#two{height: 600px;}
+	.pip{width: 1200px;}
+}
+/*параметры который будут принимать блоки при ширине меньше 1200px*/
+@media screen and (max-device-width: 1200px){
+	#first{width: 800px;}
+	.pip{width: 1000px;}
+	.one{width: 300px;}
+	.two{width: 300px;}
+	.free{width: 300px;}
+}
+/*параметры который будут принимать блоки при ширине меньше 1000px*/
+@media screen and (max-device-width: 1000px){
+	.pip{width: 800px;}
+	.one{width: 260px;}
+	.two{width: 260px;}
+	.free{width: 260px;}
+}
+/*запрещает блоку first растягиваться */
+@media screen and (min-device-width: 1200px){
+	#first{width: 800px;}
+}
